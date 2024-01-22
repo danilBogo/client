@@ -1,0 +1,59 @@
+﻿# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.slo
+
+# Folders
+_vendor/
+.vscode/
+.idea/
+*.iml
+
+# Compiled Go files
+*.6
+*.8
+*.gocache
+*.gch
+*.prof
+
+# Generated files by go generate
+*_string.go
+
+# Compiled Ignition files
+ignition/
+
+# Compiled Proto files
+*.pb.go
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+vendor/
